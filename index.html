@@ -14,7 +14,7 @@
             margin: 0;
             font-size: 0;
         }
-        img {
+        img:not(.gif) {
             max-width: 100%;
             height: auto;
         }
@@ -24,14 +24,74 @@
             position: absolute;
             width: 4%;
             padding-bottom: 4%;
-            /* background-color: rgba(255, 255, 255, .5); */
             bottom: 0;
             left: 76.8%;
             opacity: 0.5;
             z-index: 1;
         }
+        .gif {
+            position: absolute;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        .gif > img {
+            position: relative;
+            width: 100%;
+            height: auto;
+            right: -1px;
+            bottom: -1px;
+            border-radius: 20px;
+        }
     </style>
      <img src="portfolio.jpg" alt="">
      <span onclick="body.scrollIntoView({behavior: 'smooth',block: 'start'})"></span>
+
+    <div class="gif" style="width: calc((300/1920)*100%);height: auto;top: 54.25%;left: 38.65%;">
+        <img src="/gifs/bf_shop_now.gif" alt="gif-image">
+    </div>
+    <div class="gif" style="width:calc((300/1920)*100%);height: auto;top: 54.25%;left: 21.45%;">
+        <img src="/gifs/bf_story-Optimized.gif" alt="gif-image">
+    </div>
+    <div  class="gif" style="width:calc((600/1920)*100%);height: auto;top: 67.7%;left: 44.85%;">
+		<img src="/gifs/black_friday-Optimized.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 60.65%;left: 56.35%;">
+		<img src="/gifs/car_repair-1080x1080-px.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((600/1920)*100%);height: auto;top: 63.25%;left: 23.35%;">
+		<img src="/gifs/cyber_monday_320x100.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((600/1920)*100%);height: auto;top: 88.65%;left: 35.65%;">
+		<img src="/gifs/dark_christmas.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 54.55%;left: 55.85%;">
+		<img src="/gifs/mecican_food_set-1080x1080-px.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((380/1920)*100%);height: auto;top: 77%;left: 49.95%;">
+		<img src="/gifs/mega_sale_blue-Optimized.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((380/1920)*100%);height: auto;top: 48.05%;left: 46.35%;">
+		<img src="/gifs/online_collab-1080x1080-px.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 47.65%;left: 25.65%;">
+		<img src="/gifs/real_estate-250x250-px.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 77%;left: 29.25%;">
+		<img src="/gifs/school_admission.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 67.1%;left: 23.95%;">
+		<img src="/gifs/st_patrick_instagram_post.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((600/1920)*100%);height: auto;top: 83.45%;left: 23.45%;">
+		<img src="/gifs/Untitled_design-Optimized.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((800/1920)*100%);height: auto;top: 73.45%;left: 29.25%;">
+		<img src="/gifs/Untitled_design_set-970x250-px.gif" alt="gif-image">
+	</div>
+    <div  class="gif" style="width:calc((370/1920)*100%);height: auto;top: 82.3%;left: 56.25%;">
+		<img src="/gifs/summer_sale_tropic-Optimized.gif" alt="gif-image">
+	</div>
 </body>
 </html>
